@@ -86,7 +86,7 @@ a:is(:hover, :focus){
     transition: 300ms;
 }
 
-.nft__image:hover::before {
+.nft__image:is(:hover, :focus)::before {
     opacity: 1;
 }
 

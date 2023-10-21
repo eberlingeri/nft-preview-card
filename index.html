@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Application Styles -->
+    <link rel="stylesheet" href="./styles/css-reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="nft">
+        <picture class="nft__image">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Crystal cube standing on one of it's corners on a dark blue background."
+          />
+        </picture>
+        <div class="nft__content">
+          <h1 class="nft__title">
+            <a href="#" target="_blank">Equilibrium #3429</a>
+          </h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <div class="flex-group">
+            <div class="nft__price">0.041 ETH</div>
+            <div class="nft__expiration">3 days left</div>
+          </div>
+          <div class="nft__creator">
+            <img
+              src="./images/image-avatar.png"
+              alt="Profile picture of the NFT creator"
+              class="nft__creator-avatar"
+            />
+            <div class="nft__creator-info">
+              Creation of <a href="#" target="_blank">Jules Wyvern</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
